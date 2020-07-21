@@ -1,0 +1,2 @@
+" Ensure mode message is visible.
+hi clear ModeMsg
