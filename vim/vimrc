@@ -1,2 +1,15 @@
 " Ensure mode message is visible.
 hi clear ModeMsg
+
+set background=dark
+set number
+highlight LineNr ctermfg=012
+
+set scrolloff=9999
+
+set ignorecase
+set smartcase
+set copyindent
+set autoindent
+set tabstop=4
+set backspace=indent,eol,start

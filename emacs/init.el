@@ -16,7 +16,7 @@
 
 ;; [2020-07-20] Line numbers in programming modes
 (global-linum-mode)
-(setq linum-format "%4d   ")
+(setq linum-format "%3d  ")
 ;; (set-face-foreground 'linum "white")
 ;; (set-face-background 'linum "black")
 
@@ -37,7 +37,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (haskell-mode use-package dashboard))))
+ '(package-selected-packages (quote (racket-mode haskell-mode use-package dashboard))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
